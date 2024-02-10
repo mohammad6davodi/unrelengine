@@ -1,0 +1,116 @@
+body{
+    background-image: url(img/bacground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background: none;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 100%;
+  }
+  
+  li a:hover {
+    background-color: powderblue;
+    font-size: 160%;
+    transition: 2s;
+  }
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    background-color: white;
+    width: 80%;
+    margin-left:10% ;
+    text-align: center;
+    padding: 6px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    font-size: 110%;
+  }
+  
+  .bh button{
+    background-color: green;
+    border-style: solid;
+    border-color: green;
+    border-radius: 10px;
+    font-size: 160%;
+    width: 20%;
+  }
+  .bh a{
+    color: white;
+    text-decoration: none;
+  }
+  .se{
+    border-style: solid;
+    border-radius: 10%;
+    border-color: gray;
+    width: 80%;
+    background-color: gray;
+    margin-left: 10%;
+    padding: 6px;
+  }
+  .se input{
+    font-size: 110%;
+    margin: 3px;
+  }
+  .bk button{
+    background-color: green;
+    border-radius: 20px;
+    border-color: green;
+    border-style: solid;
+    text-align: center;
+    width: 60%;
+    font-size: 160%;
+    margin-left: 20%;
+  }
+  .bk a{
+    color: white;
+    text-decoration: none;
+  }
+  .in {
+    text-align: center;
+    padding: 6px;
+    margin: 6px;
+    color: white;
+}
+
+    .in input {
+        width: 60%;
+        border-radius: 20px;
+        border-bottom: solid;
+        height: 26px;
+        text-align: center;
+        background: none;
+        border-color: red;
+        color: white;
+    }
+
+        .in input:hover {
+            border-color: red;
+            box-shadow: 0 0 10px red,0 0 20px red, 0 0 40px red, 0 0 80px red, 0 0 160px red;
+            transition: 1s;
+        }
+
+        .in input:focus {
+            border-color: red;
+            box-shadow: 0 0 10px red,0 0 20px red, 0 0 40px red, 0 0 80px red, 0 0 160px red;
+            transition: 1s;
+        }
+        
